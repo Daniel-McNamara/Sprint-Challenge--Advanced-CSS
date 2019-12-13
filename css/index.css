@@ -181,6 +181,11 @@ p {
   width: 25%;
   text-align: center;
 }
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #22283B;
+  color: #f4f4f4;
+}
 /* Add responsiveness*/
 @media screen and (max-width: 500px) {
   .navbar {
@@ -251,6 +256,10 @@ footer {
   border-radius: 5px;
   color: white;
   padding: auto;
+}
+.home .walk .btn:hover {
+  background-color: #f4f4f4;
+  color: #22283B;
 }
 .home .walk .walk-img {
   width: 46%;
