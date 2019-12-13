@@ -162,6 +162,7 @@ p {
 }
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -170,7 +171,7 @@ p {
 }
 .navbar h1 {
   font-size: 4rem;
-  margin-top: 2%;
+  padding-bottom: 6%;
 }
 /* Navigation links */
 .navbar a {
