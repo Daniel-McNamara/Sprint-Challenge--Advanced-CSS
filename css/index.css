@@ -161,18 +161,26 @@ p {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  .intro {
-    background-color: yellow;
+  .home .space-images {
+    justify-content: space-around;
   }
-  .space-images {
-    background-color: red;
+  .home .space-images .sky,
+  .home .space-images .launch {
     display: none;
   }
-  .visit-planets {
-    background-color: lightblue;
+  .home .space-images .blast {
+    width: 85%;
   }
-  .walk {
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
     background-color: lightgreen;
+  }
+  .home .walk .walk-image {
+    justify-content: space-around;
+  }
+  .home .walk .walk-image .img {
+    width: 100%;
   }
 }
 .navbar {
