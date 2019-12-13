@@ -58,7 +58,13 @@
       }
 
       .btn {
+        .custom-button(@bgcolor, 100px, white)
       }
+      
+    }
+    .btn:hover {
+      background-color: @fontcolor;
+      color:@bgcolor;
     }
 
     .walk-img {

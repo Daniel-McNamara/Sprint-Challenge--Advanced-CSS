@@ -1,1 +1,29 @@
 // Navigation code here
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: @fontcolor;
+    padding: 3%;
+  }
+  .navbar h1{
+    font-size: 4rem;
+    padding-bottom:6%;
+    }
+
+  /* Navigation links */
+  .navbar a {
+    padding: 12px;
+    color:@bgcolor;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 25%;
+    text-align: center;
+  }
+  /* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: @bgcolor;
+    color:@fontcolor;
+  }
