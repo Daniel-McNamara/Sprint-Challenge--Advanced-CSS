@@ -160,6 +160,21 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .intro {
+    background-color: yellow;
+  }
+  .space-images {
+    background-color: red;
+    display: none;
+  }
+  .visit-planets {
+    background-color: lightblue;
+  }
+  .walk {
+    background-color: lightgreen;
+  }
+}
 .navbar {
   display: flex;
   flex-direction: column;
@@ -186,15 +201,6 @@ p {
 .navbar a:hover {
   background-color: #22283B;
   color: #f4f4f4;
-}
-/* Add responsiveness*/
-@media screen and (max-width: 500px) {
-  .navbar {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
 }
 footer {
   color: #22283B;
