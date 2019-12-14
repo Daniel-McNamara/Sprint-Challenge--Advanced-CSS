@@ -35,19 +35,37 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+//media query
 
 @media @phone{
-.intro{
-    background-color:yellow;
-  }
-.space-images{
-  background-color:red;
-  display:none
-  }
-.visit-planets{
-  background-color: lightblue;
-  }
-  .walk{
-    background-color:lightgreen;
-  }
-}
+  .home{
+
+    .space-images{
+      justify-content: space-around;
+
+      .sky, .launch{
+        display:none;
+      }//closes sky and launch
+
+      .blast{
+        width:85%;
+      }//closes blast
+    }//closes space
+
+    .walk{
+      flex-direction: column-reverse;
+      
+      .walk-text{
+        width: 100%;
+      }//closes walk text
+
+      .walk-image{
+        justify-content: space-around;
+        
+        .img{
+          width:100%;
+        }//closes img
+      }//closes walk image
+    }//closes walk
+  }//closes home
+}//closes media query
