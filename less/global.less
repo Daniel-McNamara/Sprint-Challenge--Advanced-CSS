@@ -35,6 +35,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+//media query
 
 @media @phone{
   .home{
@@ -52,13 +53,15 @@ p {
     }//closes space
 
     .walk{
-      display:flex;
       flex-direction: column-reverse;
-      background-color:lightgreen;
       
+      .walk-text{
+        width: 100%;
+      }//closes walk text
+
       .walk-image{
         justify-content: space-around;
-
+        
         .img{
           width:100%;
         }//closes img

@@ -172,9 +172,10 @@ p {
     width: 85%;
   }
   .home .walk {
-    display: flex;
     flex-direction: column-reverse;
-    background-color: lightgreen;
+  }
+  .home .walk .walk-text {
+    width: 100%;
   }
   .home .walk .walk-image {
     justify-content: space-around;
